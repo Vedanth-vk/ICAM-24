@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(245, 242, 239);
+}
+.us{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+.reg{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(202, 201, 201) 2px;
+    border-radius: 30px;
+    margin: 40px;
+    height: 850px;
+}
+.code{
+    position: relative;
+    right: 350px;
+    width: 400px;
+}
+
+.details{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#info{
+    
+    
+    font-size: 40px;
+    position: relative;
+    bottom: 400px;
+    left: 250px;
+}
+.names{
+    font-size: 25px;
+    color: rgb(198, 14, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom:370px;
+}
+.name_p{
+    font-size: px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+    width: 300px;
+}

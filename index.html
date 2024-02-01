@@ -10,6 +10,7 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif; /* Use a common sans-serif font for better compatibility */
         }
 
         .intro {
@@ -17,12 +18,27 @@
         }
 
         #main-h {
-            font-size: 1.5em; /* Adjust font size for smartphone usability */
+            font-size: 2em; /* Increase font size for the title */
+            margin-bottom: 20px; /* Add space between the title and the image */
+        }
+
+        #phone {
+            width: 150px; /* Adjust the width of the logo */
+            margin-bottom: 10px; /* Add space between the logo and the title */
+        }
+
+        .us {
+            font-size: 1.5em; /* Increase font size for "About Us" heading */
         }
 
         .content {
             font-size: 1.2em; /* Increase font size for content under About Us */
             text-align: justify;
+        }
+
+        .abstract-guidelines,
+        .presentation-guidelines {
+            text-align: left;
         }
     </style>
 </head>
@@ -31,7 +47,6 @@
         <div class="transbox"></div>
         <div class="intro">
             <h1 class="wel" id="header">Loyola College, Chennai - 34</h1>
-            <h1 class="wel" id="headerG">Department of Physics</h1>
             <img src="logo clg.png" class="iphone_1" id="phone">
             <h1 class="wel" id="main-h">
                 <p>International Conference on<br>
@@ -50,12 +65,6 @@
             </tr>
         </table>
     </nav>
-
-    <center>
-        <div class="main">
-            <h1 class="us">About Us</h1>
-        </div>
-    </center>
 
     <center>
         <div class="main">
@@ -96,6 +105,7 @@
             </p>
         </div>
     </center>
+
 </body>
 </html>
 

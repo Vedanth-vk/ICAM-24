@@ -1,85 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="homepage styles.css">
-  <link rel="stylesheet" href="register styles.css">
-  <link rel="icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage styles.css">
+    <link rel="icon" href="favicon.ico">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif; /* Use a common sans-serif font for better compatibility */
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        #main-h {
+            font-size: 2em; /* Increase font size for the title */
+            margin-bottom: 20px; /* Add space between the title and the image */
+        }
+
+        #phone {
+            width: 150px; /* Adjust the width of the logo */
+            margin-bottom: 10px; /* Add space between the logo and the title */
+        }
+
+        .us {
+            font-size: 1.5em; /* Increase font size for "About Us" heading */
+        }
+
+        .content {
+            font-size: 1.2em; /* Increase font size for content under About Us */
+            text-align: justify;
+        }
+
+        .abstract-guidelines,
+        .presentation-guidelines {
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-  <div class="intro">
-    <div class="transbox">
-      </div>
-  <div class="intro">
-    <h1 class="wel" id="header">Loyola College Chennai - 34</h1>
-    <h1 class="wel" id="headerG">Department of Physics</h1>
-    <img src="logo clg.png" class="iphone_1" id="phone">
-    <h1 class="wel" id="main-h"><p>International Conference on<br>
-       Advanced Materials [ICAM]</p></h1>
+    <div class="intro">
+        <div class="transbox"></div>
+        <div class="intro">
+            <h1 class="wel" id="header">Loyola College, Chennai - 34</h1>
+            <img src="logo clg.png" class="iphone_1" id="phone">
+            <h1 class="wel" id="main-h">
+                <p>International Conference on<br>
+                Advanced Materials 2024 [ICAM]</p>
+            </h1>
+        </div>
     </div>
-  </div>
 
-  <nav class="nav-bar1">
-    <table class="nav-stuff" cellspacing="20px">
-      <tr><td><a href="index.html" class="navbar-table">About Us</a></td>
-        <td><a href="register.html" class="navbar-table" id="active">Register Now</a></td>
-        <td><a href="buy-now.html" class="navbar-table">Conferences</a></td>
-        <td><a href="#" class="navbar-table">Speakers</a></td></tr>
-    </table>
+    <nav class="nav-bar1">
+        <table class="nav-stuff" cellspacing="20px">
+            <tr>
+                <td><a href="homepage.html" class="navbar-table">About Us</a></td>
+                <td><a href="register.html" class="navbar-table" id="active">Register Now</a></td>
+                <td><a href="buy-now.html" class="navbar-table">About us</a></td>
+                <td><a href="#" class="navbar-table">Speakers</a></td>
+            </tr>
+        </table>
     </nav>
 
-<center>
-    <div class="main">
-        <h1 class="us">INVITED SPEAKERS</h1>
-    </div>
-</center>
+    <center>
+       <div class="main">
+    <h1 class="us">INVITED SPEAKERS</h1>
+  </div>
 
-<center>
-    <div class="clg_details" id="abt-clg">
-        <h2 class="header_abt">Dr. P. Shanmugam</h2>
-        <p class="content">
-            Prof and Head, Dept. of Organic and Bio-organic Chemistry, CLRI
-        </p>
-    </div>
+  <div class="clg_details" id="abt-clg">
+    <h2 class="header_abt">Dr. P. Shanmugam</h2>
+    <p class="content">
+      Prof and Head, Dept. of Organic and Bio-organic Chemistry, CLRI
+    </p>
+  </div>
 
-    <div class="dept_details" id="abt-dept">
-        <h2 class="header_abt">Dr. S. Kavitha</h2>
-        <p class="content">
-            Group Head and Scientist D, C-SPM, Bangalore – 560 022
-        </p>
-    </div>
+  <div class="dept_details" id="abt-dept">
+    <h2 class="header_abt">Dr. S. Kavitha</h2>
+    <p class="content">
+      Group Head and Scientist D, C-SPM, Bangalore – 560 022
+    </p>
+  </div>
 
-    <div class="consectetur" id="abt-con">
-        <h2 class="header_abt">Prof. Mani Govindasamy</h2>
-        <p class="content">
-            Ming Chi University of Technology Taiwan
-        </p>
-    </div>
+  <div class="consectetur" id="abt-con">
+    <h2 class="header_abt">Prof. Mani Govindasamy</h2>
+    <p class="content">
+      Ming Chi University of Technology Taiwan
+    </p>
+  </div>
 
-    <div class="consectetur" id="abt-con">
-        <h2 class="header_abt">Dr. K. Sakthipandi</h2>
-        <p class="content">
-            Associate Professor SRM TRP Engineering College Trichy - 621 105
-        </p>
-    </div>
+  <div class="consectetur" id="abt-con">
+    <h2 class="header_abt">Dr. K. Sakthipandi</h2>
+    <p class="content">
+      Associate Professor SRM TRP Engineering College Trichy - 621 105
+    </p>
+  </div>
 
-    <div class="consectetur" id="abt-con">
-        <h2 class="header_abt">Rev. Dr. S. Bharathi Bernadsha, SDB</h2>
-        <p class="content">
-            Vice-Principal Don Bosco College, Dharmapuri.
-        </p>
-    </div>
+  <div class="consectetur" id="abt-con">
+    <h2 class="header_abt">Rev. Dr. S. Bharathi Bernadsha, SDB</h2>
+    <p class="content">
+      Vice-Principal Don Bosco College, Dharmapuri.
+    </p>
+  </div>
 
-    <div class="consectetur" id="abt-con">
-        <h2 class="header_abt">Dr. S. Pari</h2>
-        <p class="content">
-            Head and Associate Professor Department of Physics National College Trichy - 620 002
-        </p>
-    </div>
-</center>
-
+  <div class="consectetur" id="abt-con">
+    <h2 class="header_abt">Dr. S. Pari</h2>
+    <p class="content">
+      Head and Associate Professor Department of Physics National College Trichy - 620 002
+    </p>
+  </div>
 </body>
 </html>
 
